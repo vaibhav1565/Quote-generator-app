@@ -1,1 +1,1 @@
-Quote Generator app using [Forismatic API](https://forismatic.com/en/api/)
+A Quote Generator app utilising [Forismatic API](https://forismatic.com/en/api/)
