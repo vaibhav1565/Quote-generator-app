@@ -15,7 +15,6 @@ export async function FetchQuote() {
         const json = JSON.parse(sanitizedText);
         return json;
     } catch (error) {
-        const text = JSON.text()
         console.log(text);
         console.error("Failed to parse JSON:", error);
         return { quoteText: "Error fetching quote", quoteAuthor: "Unknown" };
